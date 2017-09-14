@@ -1,6 +1,6 @@
 #!groovy
 pipeline {
-	agent {dockerfile true}
+	agent {dockerfile { dir 'configuration' }}
 	
 
 	stages {
